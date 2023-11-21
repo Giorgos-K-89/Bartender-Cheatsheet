@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BarTender Cheatsheet</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h1>BARTENDER CHEATSHEET</h1>
+    <form action="/search-cocktail" method="POST">
+      <label for="cocktailName">Enter Cocktail Name:</label>
+      <input type="text" id="cocktailName" name="name" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+    <form action="/search-spirit" method="POST">
+      <input type="submit" id="whiskey" name="spirit" value="whiskey"></input>
+      <input type="submit" id="brandy" name="spirit" value="brandy"></input>
+      <input type="submit" id="vodka" name="spirit" value="vodka"></input>
+      <input type="submit" id="rum" name="spirit" value="rum"></input>
+      <input type="submit" id="gin" name="spirit" value="gin"></input>
+      <input type="submit" id="tequila" name="spirit" value="tequila"></input>
+    </form>

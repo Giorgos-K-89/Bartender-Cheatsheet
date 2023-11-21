@@ -1,0 +1,35 @@
+<%-include("partials/header.ejs")%>
+<% if (Array.isArray(locals.data) && (locals.data).length > 0) { %>
+      <% data.forEach(cocktail => { %>
+        <div class="cocktail-card">
+          <div id="image-flex">
+            <div id="img-container">
+              <img src="<%= cocktail.strDrinkThumb %>/preview" />
+            </div>
+            <div id="info">
+              <h2><%= cocktail.strDrink %></h2>
+              <h3>Ingredients:</h3>
+              <ul>
+                <% for (let i = 1; i <= 15; i++) { %>
+                  <% const ingredient = cocktail[`strIngredient${i}`]; %> 
+                  <% const measure = cocktail[`strMeasure${i}`]; %>
+                  <% if (ingredient) { %>
+                    <li><%= measure %> <%= ingredient %></li>
+                  <% } %>
+                <% } %>
+              </ul>
+              <h3>Glass Served:</h3><%= cocktail.strGlass %>
+            </div>
+          </div>
+          <div id="instructions">
+            <p><h3>Instructions:</h3></p>
+            <p><%= cocktail.strInstructions %></p>
+          </div>
+        </div>
+      <% }); %>
+    <% } else if(locals.error){ %>
+      <div class="cocktail-card error">
+      <%= error %>
+    </div>
+      <% } %>
+<%-include("partials/footer.ejs")%>
