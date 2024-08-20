@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-image: url(../public/images/blackwall.jpg);
+  backdrop-filter: brightness(40%);
+  background-position: center;
+  background-size: cover repeat;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  padding-top: 40px;
+  color: #ffd9e2;
+  font-family: "zen tokyo zoo";
+  text-shadow: 0 0 0 transparent, 0 0 10px #fa2a7a, 0 0 20px rgb(255, 0, 0),
+    0 0 40px #fa2a7a, 0 0 100px #fa2a7a, 0 0 200px #fa2a7a;
+  animation: animate 3s infinite alternate;
+}
+
+@keyframes animate {
+  40% {
+    opacity: 1;
+  }
+
+  42% {
+    opacity: 0.8;
+  }
+
+  43% {
+    opacity: 1;
+  }
+
+  45% {
+    opacity: 0.3;
+  }
+
+  46% {
+    opacity: 1;
+  }
+}
+
+#whiskey {
+  background-color: #7e5e00;
+  color: #700e01;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 2px 2px 0 #7e5e00;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#brandy {
+  background-color: #d53600;
+  color: #ffd22b;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 2px 2px 0 #ffd22b;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#vodka {
+  background-color: #edf4f5;
+  color: #2e819c;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 2px 2px 0 #2e819c;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#rum {
+  background-color: #ffc65c;
+  color: black;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #ffc65c;
+  transition: transform 0.1s, box-shadow 0.1s;
+  border: 1px solid;
+}
+
+#gin {
+  background-color: white;
+  color: green;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 2px 2px 0 green;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#tequila {
+  background-color: #f1e5ac;
+  color: black;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 2px 2px 0 #f1e5ac;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+#whiskey:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+#brandy:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}#vodka:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}#rum:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}#gin:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}#tequila:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
