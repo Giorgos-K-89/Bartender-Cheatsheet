@@ -1,3 +1,9 @@
-node_modules/
-build/
-.env
+# Node.js
+/server/node_modules
+/server/.env
+
+# React
+/user/bartender-cheatsheet/node_modules
+
+# Logs
+npm-debug.log*
