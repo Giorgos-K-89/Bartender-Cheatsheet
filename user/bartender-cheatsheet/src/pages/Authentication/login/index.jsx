@@ -10,7 +10,7 @@ export default function Login({onLogin}) {
 
     const navigate = useNavigate();
 
-    const backendUrl = process.env.REACT_APP_BACKEND_URL;
+    const backendUrl = 'https://bartender-cheatsheet.onrender.com/';
 
     const handleLogin = async (e) => {
         e.preventDefault();
