@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { HashRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import Header from './components/header';
 import './styles.css';
 import Navbar from './components/navbar';
@@ -29,7 +29,6 @@ export default function App() {
   }
 
   return (
-    <Router>
       <div className="w-full pb-2 min-h-screen flex flex-col">
         {isAuthenticated ? (
           <>
@@ -58,6 +57,5 @@ export default function App() {
           </>
         )}
       </div>
-    </Router>
   );
 }
