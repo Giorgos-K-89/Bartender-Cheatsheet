@@ -9,7 +9,7 @@ export default function Signup({ onSignup }) {
     const [password, setPassword] = useState('')
     const [message, setMessage] = useState('');
 
-    const backendUrl = 'https://bartender-cheatsheet.onrender.com/';
+    const backendUrl = 'https://bartender-cheatsheet.onrender.com';
 
     const navigate = useNavigate();
 
