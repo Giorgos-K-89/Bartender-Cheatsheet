@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Bartender-Cheatsheet/static/css/main.ee859480.css",
-    "main.js": "/Bartender-Cheatsheet/static/js/main.ad41b3ac.js",
+    "main.css": "/Bartender-Cheatsheet/static/css/main.c5ee1d9e.css",
+    "main.js": "/Bartender-Cheatsheet/static/js/main.991ed3b2.js",
     "static/js/453.cdbfd98f.chunk.js": "/Bartender-Cheatsheet/static/js/453.cdbfd98f.chunk.js",
     "static/media/blackwall.jpg": "/Bartender-Cheatsheet/static/media/blackwall.8c97704c4195c1c23c28.jpg",
     "index.html": "/Bartender-Cheatsheet/index.html",
-    "main.ee859480.css.map": "/Bartender-Cheatsheet/static/css/main.ee859480.css.map",
-    "main.ad41b3ac.js.map": "/Bartender-Cheatsheet/static/js/main.ad41b3ac.js.map",
+    "main.c5ee1d9e.css.map": "/Bartender-Cheatsheet/static/css/main.c5ee1d9e.css.map",
+    "main.991ed3b2.js.map": "/Bartender-Cheatsheet/static/js/main.991ed3b2.js.map",
     "453.cdbfd98f.chunk.js.map": "/Bartender-Cheatsheet/static/js/453.cdbfd98f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee859480.css",
-    "static/js/main.ad41b3ac.js"
+    "static/css/main.c5ee1d9e.css",
+    "static/js/main.991ed3b2.js"
   ]
 }
