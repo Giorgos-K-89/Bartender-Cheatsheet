@@ -4,6 +4,7 @@
 
 # React
 /user/bartender-cheatsheet/node_modules
+/user/bartender-cheatsheet/build
 
 # Logs
 npm-debug.log*

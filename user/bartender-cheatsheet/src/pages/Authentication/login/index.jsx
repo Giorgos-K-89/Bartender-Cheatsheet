@@ -10,11 +10,13 @@ export default function Login({onLogin}) {
 
     const navigate = useNavigate();
 
+    const backendUrl = process.env.REACT_APP_BACKEND_URL;
+
     const handleLogin = async (e) => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:3001/login', {
+            const response = await fetch(`${backendUrl}/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -74,7 +76,7 @@ export default function Login({onLogin}) {
                     <svg className="absolute top-9 right-5 opacity-60" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm0-80h480v-400H240v400Zm240-120q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80ZM240-160v-400 400Z"/></svg>
                 </div>
                 <button type="submit" className='text-base py-2 px-4 rounded-lg uppercase font-semibold tracking-wider inline-block shadow-md bg-black/90 text-white'>Login</button>
-                <p className="text-sm">Don't have an account? <Link className="underline" to={'/signup'}>Signup</Link></p>
+                <p className="text-sm">Don't have an account? <Link className="underline" to={'/Bartender-Cheatsheet/signup'}>Signup</Link></p>
                 {message && <p className="text-rose-600">{message}</p>}
             </form>
         </>

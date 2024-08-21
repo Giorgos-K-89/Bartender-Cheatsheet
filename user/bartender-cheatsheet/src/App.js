@@ -36,7 +36,7 @@ export default function App() {
           <Navbar logout={handleLogout}/>
           <div style={{ flex: 1 }}>
             <Routes>
-              <Route path='/' element={<Home username={username}/>} />
+              <Route path='/Bartender-Cheatsheet' element={<Home username={username}/>} />
               <Route path='/favorites' element={<Favorites />} />
               <Route path='/cocktail-details/:id' element={<Details />} />
             </Routes>
@@ -48,9 +48,9 @@ export default function App() {
           <Header />
           <div style={{ flex: 1 }}>
             <Routes>
-              <Route path='/login' element={<Login onLogin={handleLogin} />} />
-              <Route path='/signup' element={<Signup onSignup={handleLogin}/>} />
-              <Route path='/' element={<Login onLogin={handleLogin} />} />
+              <Route path='Bartender-Cheatsheet/login' element={<Login onLogin={handleLogin} />} />
+              <Route path='Bartender-Cheatsheet/signup' element={<Signup onSignup={handleLogin}/>} />
+              <Route path='Bartender-Cheatsheet/' element={<Login onLogin={handleLogin} />} />
             </Routes>
           </div>
           <Footer />
