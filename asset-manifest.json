@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Bartender-Cheatsheet/static/css/main.ee859480.css",
+    "main.js": "/Bartender-Cheatsheet/static/js/main.b1459a2e.js",
+    "static/js/453.cdbfd98f.chunk.js": "/Bartender-Cheatsheet/static/js/453.cdbfd98f.chunk.js",
+    "static/media/blackwall.jpg": "/Bartender-Cheatsheet/static/media/blackwall.8c97704c4195c1c23c28.jpg",
+    "index.html": "/Bartender-Cheatsheet/index.html",
+    "main.ee859480.css.map": "/Bartender-Cheatsheet/static/css/main.ee859480.css.map",
+    "main.b1459a2e.js.map": "/Bartender-Cheatsheet/static/js/main.b1459a2e.js.map",
+    "453.cdbfd98f.chunk.js.map": "/Bartender-Cheatsheet/static/js/453.cdbfd98f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee859480.css",
+    "static/js/main.b1459a2e.js"
+  ]
+}
