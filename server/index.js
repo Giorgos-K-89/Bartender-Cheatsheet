@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 });
 
 // Sign-Up Route
-app.post('/Bartender-Cheatsheet/signup', async (req, res) => {
+app.post('/signup', async (req, res) => {
     const { username, email, password } = req.body;
 
     // Check if the email already exists
@@ -50,7 +50,7 @@ app.post('/Bartender-Cheatsheet/signup', async (req, res) => {
 });
 
 // Login Route
-app.post('/Bartender-Cheatsheet/login', async (req, res) => {
+app.post('/login', async (req, res) => {
     const { email, password } = req.body;
 
     // Find the user by email
