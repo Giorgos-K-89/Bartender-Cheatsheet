@@ -5,7 +5,13 @@ import bcrypt from 'bcrypt';
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.use(cors());
+const corsOptions = {
+    origin: 'https://giorgos-k-89.github.io',
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const USERS = [
