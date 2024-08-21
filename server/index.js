@@ -6,9 +6,10 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 const corsOptions = {
-    origin: 'https://giorgos-k-89.github.io/Bartender-Cheatsheet/',
+    origin: 'https://giorgos-k-89.github.io',
     methods: ['GET', 'POST'],
-    allowedHeaders: ['Content-Type']
+    allowedHeaders: ['Content-Type'],
+    optionsSuccessStatus: 200
 };
 
 app.use(cors(corsOptions));
